@@ -1,1 +1,4 @@
-/* components/pickerYMDHM/pickerYMDHM.wxss */
+/* components/datepicker/datepicker.wxss */
+.fr {
+  text-align: right;
+}

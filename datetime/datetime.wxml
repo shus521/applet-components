@@ -1,8 +1,7 @@
-<!--components/pickerYMDHM/pickerYMDHM.wxml-->
 <view>
-  <picker disabled="{{disabled}}" mode="multiSelector" bindchange="pickerChange" bindcolumnchange="pickerColumnChange" bindcancel ="pickerCancel" value="{{pickerIndex}}" range="{{pickerArray}}" range-key="{{'name'}}">
-    <view style='line-height: 48px;'>
-      {{placeholder}}
-    </view>
-  </picker>
+    <picker mode="multiSelector" bindchange="bindPickerChange" bindcolumnchange="bindPickerColumnChange" value="{{multiIndex}}" range="{{multiArray}}">
+      <view disabled="{{true}}" value='{{value}}' name='{{name}}' class="fr picker">
+        {{value}}
+      </view>
+    </picker>
 </view>
